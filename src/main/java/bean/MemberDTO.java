@@ -1,0 +1,58 @@
+package bean;
+
+
+public class MemberDTO {
+	private String id;
+	private String email;
+	private String password;
+	private String reg;
+	private String rank;
+	private int warn;
+	private String profileimg;
+	
+	public String getRank() {
+		return rank;
+	}
+	public void setRank(String rank) {
+		this.rank=rank;
+	}
+	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getReg() {
+		return reg;
+	}
+	public void setReg(String reg) {
+		this.reg = reg;
+	}
+	public int getWarn() {
+		return warn;
+	}
+	public void setWarn(int warn) {
+		this.warn = warn;
+	}
+	
+	public String getProfileImg() {
+		return profileimg;
+	}
+	public void setProfileImg(String profileimg) {
+		this.profileimg = profileimg;
+	}
+	
+}
